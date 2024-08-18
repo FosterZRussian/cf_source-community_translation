@@ -313,13 +313,22 @@ addlang("func_close", "Закрыть")
 addlang("func_use", "Использовать") 
 addlang("func_upgrade", "Улучшить") 
 addlang("func_buy", "Купить") 
+addlang("func_gift", "Подарить") 
+addlang("func_showdetail", "Подробно") 
 addlang("func_disasm", "Разобрать") 
 addlang("func_activate", "Активировать") 
+addlang("func_customization", "Кастомизация")
 
+
+
+addlang("cst_fv_handsview", "В руках")
+addlang("cst_th_handsview", "Внешний обзор")
+addlang("cst_notice", "Превью может отличаться от игрового процесса")
 
 addlang("gacha_capsules_shop", "Капсулы")
 addlang("gacha_capsules_storage", "Мои капсулы")
 addlang("gacha_capsules_bonus", "Обмен бонусов")
+addlang("gacha_capsules_freecouponsleft", "У вас %s бесплатных купонов")
 
 addlang("gacha_capsules_chanselabel", "Шанс выпадения редкого предмета %s%%")
 
@@ -339,6 +348,7 @@ addlang("gacha_received_rare_item","Получен редкий предмет")
 addlang("gacha_received_special_item","Получен особый предмет")
 addlang("gacha_superbonus","Супер бонус!")
 addlang("gacha_bonus","Бонус")
+
 
 
 addlang("gacha_finditem", "Поиск предмета...")
@@ -386,5 +396,83 @@ addlang("my_collection_item_is_collected", "Собрано")
 addlang("my_collection_item_is_not_collected", "Не собрано")
 addlang("my_collection_reward", "Награда коллекции «%s»")
 addlang("my_collection_reward_is_received", "Награда получена")
+
+
+addlang("mvp_title_reach10kills", {
+	mvp_title = "Машина убийств",
+	mvp_description = "Уничтожено %s врагов",	
+})
+
+addlang("mvp_title_damage1000kils", {
+	mvp_title = "Штурмовик",
+	mvp_description = "Нанесено %s ед. урона",	
+})
+
+addlang("mvp_title_get1000shoots", {
+	mvp_title = "Транжира",
+	mvp_description = "Потрачено %s патрон",	
+})
+
+
+addlang("mvp_title_get1000shoots", {
+	mvp_title = "Военный преступник",
+	mvp_description = "Потрачено %s патрон",	
+})
+
+
+addlang("GameModeMPV_Kills", {
+	mvp_title = "Киллер",
+	mvp_description = "Совершено убийств %s",
+})
+addlang("GameModeMPV_Deads", {
+	mvp_title = "Манекен для испытаний",
+	mvp_description = "Погиб %s раз",
+})
+addlang("GameModeMPV_Kill_By_Grenade_ButIsDead", {
+	mvp_title = "Подарок с того света",
+	mvp_description = "Уничтожил врага гранатой после смерти",
+})
+addlang("GameModeMPV_Kill_By_Grenade"	, {
+	mvp_title = "Гренадер",
+	mvp_description = "Уничтожил %s врагов взрывчаткой",
+})
+addlang("GameModeMPV_Kill_By_Knife", {
+	mvp_title = "Потрошитель",
+	mvp_description = "Уничтожил %s врагов ножом",
+})
+addlang("GameModeMPV_Killed_By_SelfGrenade", {
+	mvp_title = "Эксперт по полетам",
+	mvp_description = "Подорвал себя гранатой",
+})
+addlang("GameModeMPV_Kill_NonAgreedEnemy", {
+	mvp_title = "Не военный преступник",
+	mvp_description = "Уничтожил безоружного противника",
+})
+addlang("GameModeMPV_WeaponShoot", {
+	mvp_title = "Эскперт-экономист",
+	mvp_description = "Потратил %s патронов",
+})
+addlang("GameModeMPV_Kill_Headshot"	, {
+	mvp_title = "Меткий стрелок",
+	mvp_description = "Уничтожил %s противников в голову",
+})
+addlang("GameModeMPV_Kill_By_Primary", {
+	mvp_title = "Штурмовик",
+	mvp_description = "Уничтожил %s противников основным оружием",
+})
+addlang("GameModeMPV_Kill_By_Secondary", {
+	mvp_title = "Пистолетчик",
+	mvp_description = "Уничтожил %s противников вторичным оружием",
+})
+addlang("GameModeMPV_Sended_Damage", {
+	mvp_title = "Заклятый враг",
+	mvp_description = "Нанёс %s ед. урона",
+})
+addlang("GameModeMPV_Received_Damage", {
+	mvp_title = "Уроноед",
+	mvp_description = "Получил %s ед. урона",
+})
+
+
 
 
