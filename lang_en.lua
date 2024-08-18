@@ -24,6 +24,17 @@ addlang("cfs_base_level_run_1", {
 [3] = "Part 1",
 })
 
+addlang("cfs_temple_tdm", {
+[1] = "Temple",
+[2] = "Temple",
+[3] = "",
+})
+addlang("cfs_marked_tdm", {
+[1] = "Market",
+[2] = "Market",
+[3] = "",
+})
+
 
 addlang("cfs_ai_chicago_pve_1", {
 [1] = "Crater (Defense)",
@@ -316,11 +327,20 @@ addlang("func_upgrade", "Improve")
 addlang("func_buy", "Buy")
 addlang("func_disasm", "Disassemble")
 addlang("func_activate", "Activate") 
+addlang("func_gift", "Gift") 
+addlang("func_showdetail", "Extended") 
+addlang("func_customization", "Customization")
 
+
+
+addlang("cst_fv_handsview", "Hands View")
+addlang("cst_th_handsview", "External Inspection")
+addlang("cst_notice", "The preview may differ from the gameplay")
 
 addlang("gacha_capsules_shop", "Capsules")
 addlang("gacha_capsules_storage", "My capsules")
 addlang("gacha_capsules_bonus", "Bonus exchange")
+addlang("gacha_capsules_freecouponsleft", "You have %s free coupons")
 
 addlang("gacha_capsules_chanselabel", "Chance of dropping a rare item %s%%")
 
